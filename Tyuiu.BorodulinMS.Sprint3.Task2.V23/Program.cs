@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Tyuiu.BorodulinMS.Sprint3.Task0.V13.Lib;
-namespace Tyuiu.BorodulinMS.Sprint3.Task0.V13
+using Tyuiu.BorodulinMS.Sprint3.Task2.V23.Lib;
+namespace Tyuiu.BorodulinMS.Sprint3.Task2.V23
 {
     class Program
     {
@@ -16,9 +16,9 @@ namespace Tyuiu.BorodulinMS.Sprint3.Task0.V13
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            double value = 0.5;
+            double value = 1.5;
             int startValue = 1;
-            int stopValue = 20;
+            int stopValue = 13;
 
             Console.WriteLine("Переменная X = " + value);
             Console.WriteLine("Старт шага = " + startValue);
@@ -30,7 +30,6 @@ namespace Tyuiu.BorodulinMS.Sprint3.Task0.V13
 
             Console.WriteLine("Сумма ряда = " + ds.GetSumSeries(value, startValue, stopValue));
             Console.ReadKey();
-
         }
     }
 }

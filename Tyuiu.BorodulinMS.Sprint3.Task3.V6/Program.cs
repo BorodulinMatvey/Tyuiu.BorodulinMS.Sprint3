@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Tyuiu.BorodulinMS.Sprint3.Task0.V13.Lib;
-namespace Tyuiu.BorodulinMS.Sprint3.Task0.V13
+using Tyuiu.BorodulinMS.Sprint3.Task3.V6.Lib;
+
+namespace Tyuiu.BorodulinMS.Sprint3.Task3.V6
 {
     class Program
     {
@@ -16,21 +17,19 @@ namespace Tyuiu.BorodulinMS.Sprint3.Task0.V13
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            double value = 0.5;
-            int startValue = 1;
-            int stopValue = 20;
+            string value = "12able 1o s4gh";
+            char item = 't';
 
-            Console.WriteLine("Переменная X = " + value);
-            Console.WriteLine("Старт шага = " + startValue);
-            Console.WriteLine("Конец шага = " + stopValue);
+            Console.WriteLine("Исходная строка = " + value);
+            Console.WriteLine("Исходный символ = " + item);
+            
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Сумма ряда = " + ds.GetSumSeries(value, startValue, stopValue));
+            Console.WriteLine("Результат после замены = " + ds.ReplaceNumOnChar(value, item));
             Console.ReadKey();
-
         }
     }
 }

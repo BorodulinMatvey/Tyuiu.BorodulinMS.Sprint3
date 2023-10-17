@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F761B4B7-805C-44FB-B304-A7C00D620069}</ProjectGuid>
+    <ProjectGuid>{5F606014-7D22-44D3-A7CF-F04D8CC8BA80}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Tyuiu.BorodulinMS.Sprint3.Task1.V20.Test</RootNamespace>
-    <AssemblyName>Tyuiu.BorodulinMS.Sprint3.Task1.V20.Test</AssemblyName>
+    <RootNamespace>Tyuiu.BorodulinMS.Sprint3.Task3.V6.Test</RootNamespace>
+    <AssemblyName>Tyuiu.BorodulinMS.Sprint3.Task3.V6.Test</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -56,9 +56,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.BorodulinMS.Sprint3.Task1.V20.Lib\Tyuiu.BorodulinMS.Sprint3.Task1.V20.Lib.csproj">
-      <Project>{93dea293-25c8-44d9-b9df-66d4a0120c1f}</Project>
-      <Name>Tyuiu.BorodulinMS.Sprint3.Task1.V20.Lib</Name>
+    <ProjectReference Include="..\Tyuiu.BorodulinMS.Sprint3.Task3.V6.Lib\Tyuiu.BorodulinMS.Sprint3.Task3.V6.Lib.csproj">
+      <Project>{74c7e938-2c47-4c15-b80c-d1702e55e988}</Project>
+      <Name>Tyuiu.BorodulinMS.Sprint3.Task3.V6.Lib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
