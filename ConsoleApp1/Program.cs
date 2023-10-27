@@ -8,6 +8,8 @@ namespace ConsoleApp1
 {
     class Program
     {
+        private static object i;
+
         static void Main(string[] args)
         {
             double s0 = 0;
@@ -15,15 +17,14 @@ namespace ConsoleApp1
             int x = 2;
             for(int j=1;j<=3;j++)
             {
-                for(int k =1; k<=3;k++)
+                for(int k =1;k<=3;k++)
                 {
-                    s0 = 2*x+2-k;
+                    s0 = (3 + k) * x;
                     s1 += s0;
                 }
             }
             Console.WriteLine(Math.Round(s1,3));
             Console.ReadKey();
-
         }
     }
 }
